@@ -1,6 +1,6 @@
 # bases-de-datos-SQL-
 
-'''
+```
 CREATE DATABASE campus;
 USE campus;
 CREATE TABLE estudiantes(
@@ -59,4 +59,4 @@ SELECT * FROM estudiantes WHERE edad > 18;
 SELECT estudiantes.nombre, estudiantes.apellido, notas.aignatura, notas.calificacion
 FROM estudiantes
 INNER JOIN notas ON estudiantes.id_estudiante = notas.id_estudiante;
-'''
+```
